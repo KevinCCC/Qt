@@ -4,7 +4,7 @@
 #include <windows.h>
 int main(int argc, char *argv[])
 {
-    //QApplication::addLibraryPath("./plugins");
+    QApplication::addLibraryPath("./plugins");
     QApplication a(argc, argv);
     Widget w;
     w.setFixedSize(360,115);
